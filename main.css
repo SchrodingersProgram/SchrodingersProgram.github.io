@@ -14,10 +14,12 @@ h3{
   color:#D3D3D3
 }
 
-body {
-  background-image: url("http://science-all.com/images/wallpapers/space-wallpaper-hd/space-wallpaper-hd-7.jpg");
-background-size: contain;
-filter:;
-  background-repeat: no-repeat
-    background-position: centre;
-  }
+h2{
+  color: #D3D3D3
+}
+
+body{
+  background: url("http://science-all.com/images/wallpapers/wallpaper-space/wallpaper-space-17.jpg");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
