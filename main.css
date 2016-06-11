@@ -1,0 +1,23 @@
+h1{
+  color: white;
+  font-family: helvetica
+}
+
+p{
+  font-family: helvetica;
+  color: #D3D3D3
+}
+
+h3{
+  font-family:helvetica; sans-serif;
+  font-size: 10px;
+  color:#D3D3D3
+}
+
+body {
+  background-image: url("http://science-all.com/images/wallpapers/space-wallpaper-hd/space-wallpaper-hd-7.jpg");
+background-size: contain;
+filter:;
+  background-repeat: no-repeat
+    background-position: centre;
+  }
