@@ -169,12 +169,6 @@ h4{
   content: none;
 }
 
-.projects{
-  text-align: center;
-  color: #DBDBDB;
-  font-family: helvetica
-}
-
 .me{
   left: 0;
      line-height: 22px;
@@ -203,7 +197,7 @@ html, body {
 }
 
 body{
-    background: url('http://science-all.com/images/wallpapers/wallpaper-space/wallpaper-space-17.jpg') no-repeat fixed;
+    background: ('http://science-all.com/images/wallpapers/wallpaper-space/wallpaper-space-17.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
