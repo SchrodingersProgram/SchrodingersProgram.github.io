@@ -18,8 +18,13 @@ body{
   font-family: helvetica
 }
 
-.icons{
-  width:250px;
+.icons1{
+  width:200px;
+  height: auto;
+}
+
+.icons2{
+  width:200px;
   height: auto;
 }
 
@@ -46,7 +51,7 @@ body{
 nav li{
   display: inline;
   margin: 10px;
-  padding-top: 0px;
+  padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 0px;
@@ -69,36 +74,32 @@ nav ul{
 
 }
 
-a:link{
+a.linksthatneedlinking:link{
   color:#EDEDED
 }
 
-a:visited{
+a.linksthatneedlinking:visited{
   color:#EDEDED
 }
 
-a:hover{
+a.linksthatneedlinking:hover{
   text-decoration: underline;
 }
 
-a:active{
+a.linksthatneedlinking:active{
   color:lightblue
   text-decoration: underline;
 }
 
-a:link{
+a.linksthatneedlinking:link{
   text-decoration: none;
 }
 
-a:visited{
+a.linksthatneedlinking:visited{
   text-decoration: none;
 }
 
-a:hover{
-
-}
-
-a:link {
+a.linksthatneedlinking:link {
     padding: 10px 15px;
     background: #0082DCFA;
     color: #FFF;
@@ -119,12 +120,13 @@ a:link {
     -ms-user-select:none;
     user-select:none;
 }
-a:hover {
+
+a.linksthatneedlinking:hover {
     background: #0D0D0D;
     border: solid 1px #0D0D0D;
     text-decoration: none;
 }
-a:active{
+a.linksthatneedlinking:active{
     -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -210,7 +212,17 @@ body{
     background-size: cover;
     filter: blur(95%);
 }
+div.contacticons{
+  text-align: center;
+  margin-top: -20px;
+}
 
+.icons2{
+  margin-top: 25px;
+}
+div.gmails{
+  margin-top: 50px
+}
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
