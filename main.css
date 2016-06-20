@@ -196,8 +196,14 @@ html, body {
     overflow-x: hidden;
 }
 
+.life{
+  text-align: center;
+  color: #DBDBDB;
+  font-family: helvetica
+}
+
 body{
-    background: ('http://science-all.com/images/wallpapers/wallpaper-space/wallpaper-space-17.jpg') no-repeat fixed;
+    background: url('http://science-all.com/images/wallpapers/wallpaper-space/wallpaper-space-17.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
