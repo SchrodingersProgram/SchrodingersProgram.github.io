@@ -147,7 +147,7 @@ p{
 
 h3{
   font-family:helvetica; sans-serif;
-  font-size: 10px;
+  font-size: 50px;
   color:#D3D3D3
 }
 
@@ -167,13 +167,18 @@ h4{
 
 .paragraph{
   text-align: center;
-  margin: 10px;
+  margin: 100px;
   content: none;
+  font-size: 15px;
+}
+
+.paragraph{
+
 }
 
 .me{
   left: 0;
-     line-height: 22px;
+     line-height: 30px;
      margin: auto;
      margin-top: -125px;
      position: absolute;
@@ -181,16 +186,14 @@ h4{
      width: 100%;
 }
 
-
-
 .paragraph{
   left: 0;
-     line-height: 10px;
-     margin: auto;
-     margin-top: -85px;
+     line-height: 20px;
+     margin-left: 10%;
+     margin-top: -70px;
      position: absolute;
      top: 50%;
-     width: 100%;
+     width: 80%;
 }
 
 html, body {
